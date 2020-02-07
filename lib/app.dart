@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_week_widget/widgets/pageView.dart';
 // import 'package:flutter_week_widget/widgets/safeArea.dart';
 // import './widgets/expanded.dart';
 // import 'package:flutter_week_widget/widgets/wrap.dart';
 // import './widgets/animatedContainer.dart';
 // import './widgets/opacity.dart';
-import './widgets/futureBuilder.dart';
+// import './widgets/futureBuilder.dart';
+// import 'package:flutter_week_widget/widgets/floatingActionButton.dart';
 
 
 class MyApp extends StatelessWidget {
@@ -22,7 +24,10 @@ class MyApp extends StatelessWidget {
       // home: WrapWeek()
       // home: AnimatedContainerWeek()
       // home: OpacityWeek(),
-      home: FutureBuilderWeek(),
+      // home: FutureBuilderWeek(),
+      // home: AnimatedContainerWeek()
+      // home: FABWeek(),
+      home: PageViewWeek()
     );
   }
 }
