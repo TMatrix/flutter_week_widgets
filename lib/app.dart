@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_week_widget/widgets/pageView.dart';
+// import 'package:flutter_week_widget/widgets/pageView.dart';
+import 'package:flutter_week_widget/widgets/sliverAppBar.dart';
+import 'package:flutter_week_widget/widgets/sliverListGrid.dart';
 // import 'package:flutter_week_widget/widgets/safeArea.dart';
 // import './widgets/expanded.dart';
 // import 'package:flutter_week_widget/widgets/wrap.dart';
@@ -27,7 +29,9 @@ class MyApp extends StatelessWidget {
       // home: FutureBuilderWeek(),
       // home: AnimatedContainerWeek()
       // home: FABWeek(),
-      home: PageViewWeek()
+      // home: PageViewWeek(),
+      // home: SliverAppBarWeek()
+      home: SliverListGridWeek(),
     );
   }
 }
